@@ -1,0 +1,5 @@
+{
+  "name": "AHA! AI Tutor",
+  "description": "A personal web-based AI tutor that uses a Socratic method to help users discover and construct their own knowledge. Instead of lecturing, the AI asks guiding questions, fostering 'Aha!' moments of understanding. Features include a discovery-based roadmap, an 'Aha!' journal, and an active recall engine to combat forgetting.",
+  "requestFramePermissions": []
+}

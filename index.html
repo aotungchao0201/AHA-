@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AHA! AI Tutor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'aha-gray': {
+                '900': '#121212',
+                '800': '#1E1E1E',
+                '700': '#2C2C2C',
+                '600': '#3A3A3A',
+                '500': '#5A5A5A',
+                '400': '#999999',
+                '300': '#CCCCCC',
+                '200': '#E0E0E0',
+                '100': '#F5F5F5'
+              },
+              'aha-yellow': {
+                '500': '#FFC700',
+                '600': '#E0B000'
+              },
+              'aha-blue': {
+                '500': '#007BFF',
+                '600': '#0056b3'
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0",
+    "@memobase/memobase": "https://aistudiocdn.com/@memobase/memobase@^0.0.18"
+  }
+}
+</script>
+</head>
+  <body class="bg-aha-gray-900 text-aha-gray-100">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
